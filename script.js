@@ -52,7 +52,7 @@ document.querySelector(".check").addEventListener("click", function () {
         "X﹏X You lost the game!";
       document.querySelector(".score").textContent = 0;
     }
-    
+  }
   // When you answer is too high
   // } else if (guess > secretNumber) {
   //   if (score > 1) {
